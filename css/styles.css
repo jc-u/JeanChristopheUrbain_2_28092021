@@ -1,0 +1,161 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Raleway", sans-serif;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  height: 100px;
+  position: relative;
+}
+
+.menu__navigation ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  position: absolute;
+  right: 0;
+  width: 600px;
+}
+
+.recherche__filtre ul {
+  display: flex;
+  justify-content: space-between;
+  width: 800px;
+}
+
+.recherche__filtre ul > li {
+  font-weight: bold;
+}
+
+#hebergements .centre {
+  display: flex;
+}
+
+.hebergements {
+  background-color: #f2f2f2;
+  width: 80%;
+  border-radius: 20px;
+}
+
+.hebergements__carte {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.hebergements__carte-- {
+  width: 30%;
+  min-height: 360px;
+  background-color: white;
+  border-radius: 20px;
+  position: relative;
+}
+
+.hebergements__carte--:nth-child(1) > .photo {
+  background-image: url("../assets/hebergements/auberge-cannebiere.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 80%;
+  width: 100%;
+  border: solid 6px white;
+  overflow: hidden;
+  border-radius: 20px;
+  position: relative;
+  z-index: 1;
+}
+
+.hebergements__carte-- > .description {
+  position: absolute;
+  bottom: 65px;
+  z-index: 2;
+  background-color: white;
+  width: 100%;
+}
+
+.hebergements__carte--:nth-child(2) > .photo {
+  background-image: url("../assets/hebergements/hotel-port.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 80%;
+  border: solid 6px white;
+  overflow: hidden;
+  border-radius: 20px;
+  position: relative;
+  z-index: 1;
+}
+
+.hebergements__carte--:nth-child(3) > .photo {
+  background-image: url("../assets/hebergements/hotel-mouettes.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+  height: 80%;
+  border: solid 6px white;
+  overflow: hidden;
+  border-radius: 20px;
+  position: relative;
+  z-index: 1;
+}
+.hebergements__carte--:nth-child(4) > .photo {
+  background-image: url("../assets/hebergements/hotel-mer.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+  height: 80%;
+  border: solid 6px white;
+  overflow: hidden;
+  border-radius: 20px;
+  position: relative;
+  z-index: 1;
+}
+.hebergements__carte--:nth-child(5) > .photo {
+  background-image: url("../assets/hebergements/hotel-panier.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+  height: 80%;
+  border: solid 6px white;
+  overflow: hidden;
+  border-radius: 20px;
+  position: relative;
+  z-index: 1;
+}
+.hebergements__carte--:nth-child(6) > .photo {
+  background-image: url("../assets/hebergements/hotel-amina.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+  height: 80%;
+  border: solid 6px white;
+  overflow: hidden;
+  border-radius: 20px;
+  position: relative;
+  z-index: 1;
+}
+
+.hebergements__populaireCarte-- {
+  width: 100px;
+}
+
+.hebergements__populaireCarte {
+  display: flex;
+}
+
+.hebergements__populaireCarte-- > .photo > img {
+  width: 100%;
+}
