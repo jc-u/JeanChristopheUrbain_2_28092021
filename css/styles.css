@@ -225,7 +225,7 @@ a {
   margin: 15px;
 }
 
-.hebergements__carte-- > .photo {
+.hebergements__carte-- .photo {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -238,26 +238,26 @@ a {
   z-index: 1;
 }
 
-.hebergements__carte--:nth-child(1) > .photo {
+.hebergements__carte--:nth-child(1) .photo {
   background-image: url("../assets/hebergements/auberge-cannebiere.jpg");
 }
-.hebergements__carte--:nth-child(2) > .photo {
+.hebergements__carte--:nth-child(2) .photo {
   background-image: url("../assets/hebergements/hotel-port.jpg");
 }
-.hebergements__carte--:nth-child(3) > .photo {
+.hebergements__carte--:nth-child(3) .photo {
   background-image: url("../assets/hebergements/hotel-mouettes.jpg");
 }
-.hebergements__carte--:nth-child(4) > .photo {
+.hebergements__carte--:nth-child(4) .photo {
   background-image: url("../assets/hebergements/hotel-mer.jpg");
 }
-.hebergements__carte--:nth-child(5) > .photo {
+.hebergements__carte--:nth-child(5) .photo {
   background-image: url("../assets/hebergements/hotel-panier.jpg");
 }
-.hebergements__carte--:nth-child(6) > .photo {
+.hebergements__carte--:nth-child(6) .photo {
   background-image: url("../assets/hebergements/hotel-amina.jpg");
 }
 
-.hebergements__carte-- > .description {
+.hebergements__carte-- .description {
   position: absolute;
   bottom: 0;
   z-index: 2;
@@ -267,26 +267,26 @@ a {
   box-shadow: 0px 13px 19px -16px #898989;
 }
 
-.hebergements__carte-- > .description > p,
+.hebergements__carte-- .description > p,
 h3,
 .etoile {
   margin: 10px;
 }
 
-.hebergements__carte-- > .description > .etoile > i {
+.hebergements__carte-- .description .etoile > i {
   color: #0065fc;
 }
 
-.hebergements__carte--:nth-child(1) > .description > .etoile > i:nth-child(5) {
+.hebergements__carte--:nth-child(1) .description .etoile i:nth-child(5) {
   color: #f2f2f2;
 }
-.hebergements__carte--:nth-child(3) > .description > .etoile > i:nth-child(5) {
+.hebergements__carte--:nth-child(3) .description .etoile i:nth-child(5) {
   color: #f2f2f2;
 }
-.hebergements__carte--:nth-child(4) > .description > .etoile > i:nth-child(4) {
+.hebergements__carte--:nth-child(4) .description .etoile i:nth-child(4) {
   color: #f2f2f2;
 }
-.hebergements__carte--:nth-child(4) > .description > .etoile > i:nth-child(5) {
+.hebergements__carte--:nth-child(4) .description .etoile i:nth-child(5) {
   color: #f2f2f2;
 }
 
@@ -334,7 +334,7 @@ h3,
   width: 83%;
 }
 
-.hebergements__populaireCarte-- > .photo {
+.hebergements__populaireCarte-- .photo {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -348,17 +348,17 @@ h3,
   left: 0;
 }
 
-.hebergements__populaireCarte--:nth-child(1) > .photo {
+.hebergements__populaireCarte--:nth-child(1) .photo {
   background-image: url("../assets/hebergements/hotel-soleil-du-matin.jpg");
 }
-.hebergements__populaireCarte--:nth-child(2) > .photo {
+.hebergements__populaireCarte--:nth-child(2) .photo {
   background-image: url("../assets/hebergements/au-coeur-de-leau.jpg");
 }
-.hebergements__populaireCarte--:nth-child(3) > .photo {
+.hebergements__populaireCarte--:nth-child(3) .photo {
   background-image: url("../assets/hebergements/hotel-tout-bleu-et-blanc.jpg");
 }
 
-.hebergements__populaireCarte-- > .description {
+.hebergements__populaireCarte-- .description {
   background-color: white;
   width: 50%;
   border-radius: 0 20px 20px 20px;
@@ -371,32 +371,32 @@ h3,
   box-shadow: 0px 13px 19px -16px #898989;
 }
 
-.hebergements__populaireCarte-- > .description > p,
+.hebergements__populaireCarte-- .description p,
 h3,
 .etoile {
   margin: 10px;
 }
 
-.hebergements__populaireCarte-- > .description > .etoile {
+.hebergements__populaireCarte-- .description .etoile {
   position: absolute;
   bottom: 0;
 }
 
-.hebergements__populaireCarte-- > .description > .etoile > i {
+.hebergements__populaireCarte-- .description .etoile i {
   color: #0065fc;
 }
 
 .hebergements__populaireCarte--:nth-child(2)
-  > .description
-  > .etoile
-  > i:nth-child(5) {
+  .description
+  .etoile
+  i:nth-child(5) {
   color: #f2f2f2;
 }
 
 .hebergements__populaireCarte--:nth-child(3)
-  > .description
-  > .etoile
-  > i:nth-child(5) {
+  .description
+  .etoile
+  i:nth-child(5) {
   color: #f2f2f2;
 }
 
@@ -427,7 +427,7 @@ h3,
   margin: 20px;
 }
 
-.activites__carte-- > .photo {
+.activites__carte-- .photo {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -439,34 +439,34 @@ h3,
   z-index: 1;
 }
 
-.activites__carte--:nth-child(1) > .photo {
+.activites__carte--:nth-child(1) .photo {
   background-image: url("../assets/activites/vieux-port.jpg");
   min-height: 640px;
 }
-.activites__carte--:nth-child(2) > .photo {
+.activites__carte--:nth-child(2) .photo {
   background-image: url("../assets/activites/fort-pomegues.jpg");
   height: 300px;
   justify-content: flex-start;
 }
-.activites__carte--:nth-child(3) > .photo {
+.activites__carte--:nth-child(3) .photo {
   background-image: url("../assets/activites/iles-frioul.jpg");
   height: 300px;
   justify-content: flex-end;
 }
-.activites__carte--:nth-child(4) > .photo {
+.activites__carte--:nth-child(4) .photo {
   background-image: url("../assets/activites/parc-national-des-calanques.jpg");
   height: 640px;
 }
-.activites__carte--:nth-child(5) > .photo {
+.activites__carte--:nth-child(5) .photo {
   background-image: url("../assets/activites/notre-dame-de-la-garde.jpg");
   height: 300px;
 }
-.activites__carte--:nth-child(6) > .photo {
+.activites__carte--:nth-child(6) .photo {
   background-image: url("../assets/activites/parc-longchamp.jpg");
   height: 300px;
 }
 
-.activites__carte-- > .description {
+.activites__carte-- .description {
   position: absolute;
   bottom: 0;
   z-index: 2;
@@ -477,7 +477,7 @@ h3,
   box-shadow: 0px 18px 20px 0px #f2f2f2;
 }
 
-.activites__carte-- > .description > h3 {
+.activites__carte-- .description h3 {
   margin: 20px;
 }
 
