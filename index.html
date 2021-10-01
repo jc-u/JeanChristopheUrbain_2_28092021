@@ -12,6 +12,8 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/tablette.css" />
+    <link rel="stylesheet" href="./css/mobile.css" />
     <script
       src="https://kit.fontawesome.com/e2824795d5.js"
       crossorigin="anonymous"
@@ -40,6 +42,25 @@
             </ul>
           </div>
         </div>
+        <div class="menu__mobile">
+          <div class="menu__logo">
+            <a href="#"><img src="./assets/logo/Reservia.svg" alt="logo" /></a>
+            <div class="menu__inscription">
+              <a href="#">S'inscrire</a>
+            </div>
+          </div>
+
+          <div class="menu__navigation">
+            <ul>
+              <li>
+                <a href="#hebergements">Hébergements</a>
+              </li>
+              <li>
+                <a href="#activites">Activités</a>
+              </li>
+            </ul>
+          </div>
+        </div>
       </nav>
 
       <!-- FIN MENU -->
@@ -55,18 +76,30 @@
           <div class="recherche__input">
             <i class="fas fa-map-marker-alt"></i>
             <input type="text" value="Marseille, France" />
-            <input type="submit" value="Rechercher" />
+            <input type="submit" value="Rechercher" /><input
+              id="input__mobile"
+              type="submit"
+              value=""
+            />
           </div>
           <div class="recherche__filtre">
             <h3>Filtres</h3>
-            <i class="fas fa-money-bill-wave"></i>
-            <h3>Économique</h3>
-            <i class="fas fa-child"></i>
-            <h3>Familial</h3>
-            <i class="fas fa-heart"></i>
-            <h3>Romantique</h3>
-            <i class="fas fa-dog"></i>
-            <h3>Animaux autorisés</h3>
+            <div class="filtre">
+              <i class="fas fa-money-bill-wave"></i>
+              <h3>Économique</h3>
+            </div>
+            <div class="filtre">
+              <i class="fas fa-child"></i>
+              <h3>Familial</h3>
+            </div>
+            <div class="filtre">
+              <i class="fas fa-heart"></i>
+              <h3>Romantique</h3>
+            </div>
+            <div class="filtre">
+              <i class="fas fa-dog"></i>
+              <h3>Animaux autorisés</h3>
+            </div>
           </div>
           <div class="recherche__resultat">
             <i class="fas fa-info"></i>

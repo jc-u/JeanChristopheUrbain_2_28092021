@@ -21,6 +21,10 @@ a {
 
 /* MENU */
 
+.menu__mobile {
+  display: none;
+}
+
 .menu {
   display: flex;
   align-items: center;
@@ -118,6 +122,10 @@ a {
   margin-left: -4px;
 }
 
+.recherche__input input[id="input__mobile"] {
+  display: none;
+}
+
 .recherche__filtre {
   margin: 30px 0;
   display: flex;
@@ -126,7 +134,12 @@ a {
   width: 1000px;
 }
 
-.recherche__filtre i {
+.recherche__filtre .filtre {
+  display: flex;
+  align-items: center;
+}
+
+.recherche__filtre .filtre i {
   color: #0065fc;
   background-color: #deebff;
   padding: 20px;
@@ -136,27 +149,27 @@ a {
   position: relative;
   z-index: 1;
 }
-.recherche__filtre h3:nth-child(1n) {
+.recherche__filtre .filtre h3:nth-child(1n) {
   border: solid 1px #f2f2f2;
   border-radius: 40px 40px 40px 40px;
-  padding: 15px 20px 15px 50px;
-  margin-left: -45px;
+  padding: 15px 20px 15px 70px;
+  margin-left: -55px;
   cursor: pointer;
 }
 
-.recherche__filtre h3:nth-child(1n):hover {
+.recherche__filtre .filtre h3:nth-child(1n):hover {
   background-color: #0065fc;
   color: white;
   transition: 300ms;
 }
-.recherche__filtre h3:nth-child(1) {
+.recherche__filtre .filtre h3:nth-child(1) {
   border: none;
   margin-left: 0;
   padding-left: 0;
   cursor: unset;
 }
 
-.recherche__filtre h3:nth-child(1):hover {
+.recherche__filtre .filtre h3:nth-child(1):hover {
   background-color: white;
   color: black;
 }

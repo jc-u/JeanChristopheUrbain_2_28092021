@@ -1,0 +1,78 @@
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .menu__mobile {
+    display: none;
+  }
+
+  .menu {
+    width: 95%;
+    margin: 0 auto;
+  }
+
+  .menu__navigation ul {
+    width: 400px;
+  }
+
+  .recherche .centre {
+    width: 95%;
+    margin: 0 auto;
+  }
+
+  .recherche__input input[id="input__mobile"] {
+    display: none;
+  }
+
+  .recherche__filtre {
+    width: 71%;
+    flex-wrap: wrap;
+  }
+
+  .recherche__filtre h3:nth-child(1) {
+    width: 100%;
+  }
+
+  .recherche__resultat {
+    width: 66%;
+  }
+
+  #hebergements .centre {
+    display: block;
+  }
+
+  .hebergements {
+    width: 95%;
+    margin: 0 auto;
+  }
+
+  .hebergements__titre h2 {
+    padding-top: 30px;
+  }
+
+  .hebergements__populaire {
+    width: 95%;
+    margin: 0 auto;
+    padding-bottom: 30px;
+  }
+
+  .hebergements__populaireCarte-- .description {
+    width: 65%;
+    border-radius: 0 20px 20px 0;
+  }
+
+  .hebergements__lien {
+    padding-bottom: 30px;
+  }
+
+  #activites {
+    width: 95%;
+    margin: 0 auto;
+  }
+
+  .activites__titre {
+    width: 95%;
+    margin: 0 auto;
+  }
+
+  .activites__carte {
+    width: 91%;
+  }
+}
