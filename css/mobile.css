@@ -1,4 +1,6 @@
 @media screen and (max-width: 767px) {
+  /* MENU */
+
   .menu {
     display: none;
   }
@@ -46,6 +48,10 @@
   .menu__mobile .menu__navigation li:hover {
     border-top: unset;
   }
+
+  /* FIN MENU */
+
+  /* RECHERCHE */
 
   .recherche__input {
     position: relative;
@@ -106,6 +112,10 @@
     align-items: unset;
   }
 
+  /* FIN RECHERCHE */
+
+  /* HEBERGEMENTS */
+
   #hebergements {
     width: 100%;
   }
@@ -123,8 +133,10 @@
   }
 
   .hebergements__titre h2 {
-    padding-top: 30px;
+    padding: 20px 0;
   }
+
+  /* LES PLUS POPULAIRES */
 
   .hebergements__populaire {
     width: 100%;
@@ -133,44 +145,84 @@
     order: 1;
     border-radius: unset;
   }
+  .hebergements__populaire h2 {
+    width: 60%;
+    margin: 30px auto 20px;
+  }
+
+  .hebergements__populaireCarte-- {
+    width: 95%;
+  }
 
   .hebergements__populaireCarte-- .description {
     width: 64%;
     border-radius: 0 20px 20px 0;
   }
 
-  .hebergements__carte {
-    display: block;
-  }
   .hebergements__carte .hebergements__carte-- {
     width: 95%;
     margin: 0 auto;
+    margin-bottom: 20px;
   }
   .hebergements__lien {
-    padding-bottom: 30px;
+    padding-bottom: 10px;
   }
+
+  /* FIN HEBERGEMENTS */
+
+  /* ACTIVITES */
 
   #activites {
     width: 95%;
     margin: 0 auto;
+    margin-bottom: 60px;
   }
 
   .activites__titre {
     width: 95%;
     margin: 0 auto;
   }
+  .activites__titre h2 {
+    margin: 0 auto 30px;
+  }
 
   .activites__carte {
     width: 95%;
     margin: 0 auto;
     display: block;
+    height: unset;
   }
   .activites__carte .activites__carte-- .photo {
     min-height: 220px;
+    height: 220px;
   }
 
   .activites__carte .activites__carte-- {
     width: 95%;
     margin: 0 auto;
+    margin-bottom: 20px;
   }
+
+  /* FIN ACTIVITES */
+
+  /* FOOTER */
+
+  footer .centre {
+    display: block;
+    background-color: #f2f2f2;
+    padding-bottom: 30px;
+  }
+
+  .footer__propos {
+    padding-top: 30px;
+  }
+
+  .footer__propos,
+  .footer__hebergements,
+  .footer__assistance {
+    width: 95%;
+    margin: 0 auto 40px;
+  }
+
+  /* FIN FOOTER */
 }

@@ -1,4 +1,6 @@
 @media screen and (min-width: 768px) and (max-width: 991px) {
+  /* MENU */
+
   .menu__mobile {
     display: none;
   }
@@ -11,6 +13,10 @@
   .menu__navigation ul {
     width: 400px;
   }
+
+  /* FIN MENU */
+
+  /* RECHERCHE */
 
   .recherche .centre {
     width: 95%;
@@ -34,6 +40,10 @@
     width: 66%;
   }
 
+  /* FIN RECHERCHE */
+
+  /* HEBERGEMENTS */
+
   #hebergements .centre {
     display: block;
   }
@@ -46,6 +56,8 @@
   .hebergements__titre h2 {
     padding-top: 30px;
   }
+
+  /* LES PLUS POPULAIRES */
 
   .hebergements__populaire {
     width: 95%;
@@ -62,6 +74,10 @@
     padding-bottom: 30px;
   }
 
+  /* FIN HEBERGEMENTS */
+
+  /* ACTIVITES */
+
   #activites {
     width: 95%;
     margin: 0 auto;
@@ -75,4 +91,6 @@
   .activites__carte {
     width: 91%;
   }
+
+  /* FIN ACTIVITES */
 }
