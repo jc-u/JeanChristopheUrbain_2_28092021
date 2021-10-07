@@ -55,6 +55,15 @@ a {
   text-align: center;
 }
 
+.menu__navigation li:nth-child(1) {
+  border-top: solid 2px #0065fc;
+}
+
+.menu__navigation li:nth-child(1) a {
+  color: #0065fc;
+  font-weight: bold;
+}
+
 .menu__navigation li:hover {
   border-top: solid 2px #0065fc;
   transition: 100ms;
