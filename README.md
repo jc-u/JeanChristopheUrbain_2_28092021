@@ -2,7 +2,7 @@
 
 # Projet 2 - Développeur Front-End
 
-[Page disponible sur GitHub Pages](https://yanntouil.github.io/YannTouil_2_17092021/index.html)
+[Page disponible sur GitHub Pages](https://jc-u.github.io/JeanChristopheUrbain_2_28092021/)
 
 ## Transformez une maquette en site web
 
